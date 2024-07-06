@@ -1,1 +1,8 @@
-<p>menu works!</p>
+<div class="container">
+    <img [src]="logo">
+</div>
+
+<button type="button" class="btn btn-success" [disabled]
+="disabledMyButton"(click)="sayHello()">
+I am disabled
+</button>
